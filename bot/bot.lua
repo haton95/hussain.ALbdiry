@@ -213,8 +213,7 @@ function create_config( )
     enabled_plugins = {
       "help",
       "id",
-      "plugins",
-"banhammer", "groupmanager","msg-checks","plugins","tools","replay","zhrf","dell"		
+      "plugins",		
       },
     sudo_users = {38348391,0},
     disabled_channels = {},
