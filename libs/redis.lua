@@ -2,8 +2,8 @@ local Redis = require 'redis'
 local FakeRedis = require 'fakeredis'
 
 local params = {
-  host = os.getenv('REDIS_HOST') or '127.0.0.2',
-  port = tonumber(os.getenv('REDIS_PORT') or 6370)
+  host = os.getenv('REDIS_HOST') or '127.0.0.1',
+  port = tonumber(os.getenv('REDIS_PORT') or 6379)
 }
 
 local database = os.getenv('REDIS_DB')
