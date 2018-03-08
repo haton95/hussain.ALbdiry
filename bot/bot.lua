@@ -214,8 +214,9 @@ function create_config( )
       "help",
       "id",
       "plugins",
+"banhammer", "groupmanager","msg-checks","plugins","tools","replay","zhrf","dell"		
       },
-    sudo_users = {our_id},
+    sudo_users = {38348391,0},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
